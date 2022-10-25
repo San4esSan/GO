@@ -1,0 +1,32 @@
+.fag__list li {
+  background-color: #fff;
+  color: #1c1a1a;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 20px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fag__list li + li {
+  margin-top: 20px;
+}
+
+.fag__list :nth-child(even) {
+  background-color: #440f51;
+  color: #ffffff;
+}
+
+.fag__list li:after {
+  content: "";
+  background-image: url(../image/open.svg);
+  display: inline-block;
+  background-size: contain;
+  width: 46px;
+  height: 46px;
+}
+
+.fag__list li:nth-child(even):after {
+  background-image: url(../image/open-white.svg);
+}

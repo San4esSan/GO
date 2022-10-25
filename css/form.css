@@ -1,0 +1,27 @@
+.form {
+  margin-bottom: 100px;
+}
+
+.form__wrap {
+  padding: 0 20px;
+}
+
+fieldset {
+  padding: 15px;
+}
+
+.form__date input {
+  border-radius: 3px;
+}
+
+.form__people,
+.form__name,
+.form__surname,
+.form__tel {
+  width: 145px;
+}
+
+.form__btn {
+  padding: 0 10px;
+  border-radius: 3px;
+}

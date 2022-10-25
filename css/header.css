@@ -1,0 +1,57 @@
+.header {
+  margin-bottom: 100px;
+}
+
+.header__wrap {
+  position: relative;
+}
+
+.header__bg {
+  height: 823px;
+}
+
+.header__bg:after {
+  content: "";
+  position: absolute;
+  height: 823px;
+  width: 675px;
+  background-image: url(../image/bg.png);
+  background-repeat: no-repeat;
+  right: 0;
+  bottom: -60px;
+
+}
+
+.header__title {
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 100%;
+  text-transform: uppercase;
+  letter-spacing: -0.1em;
+}
+
+.header__text {
+  padding-left: 100px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 50px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+

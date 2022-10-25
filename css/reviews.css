@@ -1,0 +1,29 @@
+.reviews {
+  margin-bottom: 100px;
+}
+
+.reviews__block {
+  display: flex;
+  padding: 0 95px;
+  margin-bottom: 50px;
+}
+
+.reviews__block:last-child {
+  margin-bottom: 0;
+}
+
+.reviews__block figcaption {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 11px;
+}
+
+.reviews__text {
+  width: 710px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 50px 10px 20px 20px;
+}

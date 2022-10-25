@@ -1,0 +1,68 @@
+.footer {
+  margin: 100px 0 50px;
+}
+
+.contacts__wrap {
+  max-width: 370px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.сontact__details li + li {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+}
+
+.address svg,
+.phone svg,
+.envelope svg {
+  margin-right: 30px;
+}
+
+.social__icons {
+  display: flex;
+  margin-top: 40px;
+}
+
+.social__icons li + li {
+  margin-left: 26px;
+}
+
+.social__item {
+  list-style: none;
+}
+
+.social__link {
+  display: block;
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+  outline: 1px solid transparent;
+  outline-offset: 3px;
+  border-radius: 50%;
+}
+
+svg {
+  max-width: 100%;
+  height: 100%;
+}
+
+.social__link:hover {
+  color: #cd06ff;
+}
+
+.social__link:focus {
+  outline-color: #cd06ff;
+  color: #cd06ff;
+}
+
+.social__link:active {
+  color: #840aa3;
+}

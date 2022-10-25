@@ -1,0 +1,46 @@
+.halls {
+  margin-bottom: 100px;
+}
+
+.halls__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.halls__link {
+  height: 349px;
+  width: 580px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.halls__link a {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.vibes-bg {
+  background-image: url(../image/vibes-bg.jpg);
+  background-size: cover;
+}
+
+.starwars-bg {
+  background-image: url(../image/sw-bg.jpg);
+  background-size: cover;
+}
+
+.wildwest-bg {
+  background-image: url(../image/ww-bg.jpg);
+  background-size: cover;
+}
+
+.neon-bg {
+  background-image: url(../image/neon-bg.jpg);
+  background-size: cover;
+}
