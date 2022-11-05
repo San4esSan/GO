@@ -1,27 +1,198 @@
 .form {
-  margin-bottom: 100px;
-}
-
-.form__wrap {
-  padding: 0 20px;
+  background-color: #440F51;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 fieldset {
-  padding: 15px;
+  border: none;
 }
 
-.form__date input {
-  border-radius: 3px;
+.checked__halls {
+  margin-bottom: 60px;
+  padding: 0;
 }
 
-.form__people,
-.form__name,
-.form__surname,
-.form__tel {
-  width: 145px;
+.form__subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.checked__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checked__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 55px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.checked__kit {
+  max-width: 980px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 60px;
+  padding: 0;
+}
+
+.checked__block {
+  padding: 0;
+}
+
+.block__list {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.block__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-bottom: 23px;
+}
+
+.block__item {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.block__item label {
+  display: flex;
+  align-items: center;
+}
+
+.block__item:not(:last-child) {
+  margin-bottom: 21px;
+}
+
+.block__item input[type="radio"] {
+  width: 25px;
+  height: 25px;
+  margin-right: 12px;
+}
+
+.block__item input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  margin-right: 12px;
+}
+
+.form__data {
+  max-width: 980px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.data__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.data__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 36px 50px;
+  margin-bottom: 40px;
+}
+
+.data__item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  width: 300px;
+  gap: 12px;
+}
+
+.data__item input {
+  width: 300px;
+  height: 52px;
+  padding: 0 20px;
+  border: none;
+  margin-top: 6px;
+}
+
+.data__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.data__item-name,
+.data__name,
+.data__surname {
+  width: 280px;
+}
+
+.data__item .data__date {
+  width: 134px;
+  height: 52px;
+}
+
+.data__item .date__time {
+  width: 134px;
+  height: 52px;
+}
+
+.date__people {
+  width: 300px;
+  height: 52px;
+}
+
+.label-date {
+  position: relative;
+}
+
+.data__icon {
+  position: absolute;
+  right: 19px;
+  top: 0;
+  bottom: 0;
+}
+
+.data__date::placeholder,
+.date__time::placeholder,
+.date__people::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #211E1E;
 }
 
 .form__btn {
-  padding: 0 10px;
-  border-radius: 3px;
+  width: 300px;
+  height: 60px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #6C0287;
+  display: block;
+  margin-left: auto;
 }

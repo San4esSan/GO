@@ -1,0 +1,56 @@
+.relaxation {
+  margin-bottom: 100px;
+}
+
+.relaxation__title {
+  width: 800px;
+  margin: 0 auto 41px;
+}
+
+.relaxation__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px 20px;
+}
+
+.relaxation__item {
+  position: relative;
+  width: 380px;
+  height: 228px;
+}
+
+.relaxation__text {
+  position: absolute;
+  left: 40px;
+  top: 166px;
+  white-space: pre-line;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.vr-glasses {
+  background-image: url(../image/rel1.jpg);
+}
+
+.audio-system {
+  background-image: url(../image/rel2.jpg);
+}
+
+.karaoke {
+  background-image: url(../image/rel3.jpg);
+}
+
+.board-games {
+  background-image: url(../image/rel4.jpg);
+}
+
+.cinema-services {
+  background-image: url(../image/rel5.jpg);
+}
+
+.plаy-stаtiоn {
+  background-image: url(../image/rel6.jpg);
+}
