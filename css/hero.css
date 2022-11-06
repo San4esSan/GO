@@ -84,6 +84,7 @@
 
 .hero__btn {
   width: 374px;
+  height: 80px;
   background: #6C0287;
   border-radius: 10px;
   font-weight: 700;
@@ -92,27 +93,56 @@
   text-transform: uppercase;
   color: #FFFFFF;
   text-align: center;
+  transition: all .3s;
+}
+
+.hero__btn:hover {
+  background: #840AA3;
+}
+
+.hero__btn:focus {
+  background: #840AA3;
+}
+
+.hero__btn:active {
+  background: #640AA3;
+}
+
+.hero__btn-link {
   padding: 25px 69px;
+  outline: none;
 }
 
 .hero__arrow {
   position: absolute;
   width: 97px;
   height: 97px;
-  border: 1px solid #FFFFFF;
-  border-radius: 50%;
   bottom: 90px;
   left: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   z-index: 2;
   transform: translateX(-50%);
+  outline: 1px solid transparent;
+  color: transparent;
+  stroke: #FFFFFF;
 }
 
 .arrow-down {
-  height: 30px;
-  width: 30px;
-  display: inline-block;
-  margin-bottom: 11px;
+  transition: all .1s;
+}
+
+.hero__arrow:hover {
+  fill: #FFFFFF;
+  stroke: #6C0287;
+  color: #FFFFFF;
+  border-color: transparent;
+}
+
+.hero__arrow:focus {
+  outline-color: #CD06FF;
+}
+
+.hero__arrow:active {
+  color: #CD06FF;
+  stroke: #FFFFFF;
+  border-color: #CD06FF;
 }

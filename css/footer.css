@@ -58,6 +58,7 @@
   outline: 1px solid transparent;
   outline-offset: 3px;
   border-radius: 50%;
+  transition: all .3s;
 }
 
 svg {
@@ -66,16 +67,16 @@ svg {
 }
 
 .social__link:hover {
-  color: #cd06ff;
+  color: #EADEED;
 }
 
 .social__link:focus {
-  outline-color: #cd06ff;
-  color: #cd06ff;
+  outline-color: #CD06FF;
+  color: #EADEED;
 }
 
 .social__link:active {
-  color: #840aa3;
+  color: #CD06FF;
 }
 
 .contacts__map {

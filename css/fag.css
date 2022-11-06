@@ -29,8 +29,25 @@
   background-size: contain;
   width: 46px;
   height: 46px;
+  transition: all .3s;
+}
+
+.fag__list li:hover:after {
+  background-image: url(../image/open-hover.svg);
+}
+
+.fag__list li:active:after {
+  background-image: url(../image/open-active.svg);
 }
 
 .fag__list li:nth-child(even):after {
   background-image: url(../image/open-white.svg);
+}
+
+.fag__list li:nth-child(even):hover:after {
+  background-image: url(../image/open-white-hover.svg);
+}
+
+.fag__list li:nth-child(even):active:after {
+  background-image: url(../image/open-white-active.svg);
 }

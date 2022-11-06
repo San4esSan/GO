@@ -26,6 +26,7 @@ img, svg {
 button {
   padding: 0;
   cursor: pointer;
+  outline: none;
 }
 
 a {
