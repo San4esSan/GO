@@ -18,6 +18,7 @@
   position: relative;
   width: 380px;
   height: 228px;
+  transition: all .3s;
 }
 
 .relaxation__text {
@@ -53,4 +54,8 @@
 
 .plаy-stаtiоn {
   background-image: url(../image/rel6.jpg);
+}
+
+.relaxation__item:hover {
+  transform: scale(1.1);
 }
