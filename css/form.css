@@ -19,7 +19,6 @@ fieldset {
   font-size: 24px;
   line-height: 28px;
   text-align: center;
-  color: #FFFFFF;
   margin-bottom: 40px;
 }
 
@@ -48,7 +47,7 @@ fieldset {
 
 .checked__item:hover {
   background: #EADEED;
-  border: 3px solid #640AA3;
+  border: 3px solid var(--form-acive);
 }
 
 .checked__item:active {
@@ -59,7 +58,7 @@ fieldset {
 
 .checked__item:focus {
   background: #FFFFFF;
-  border: 3px solid #640AA3;
+  border: 3px solid var(--form-acive);
   color: #000000;
 }
 
@@ -85,7 +84,6 @@ fieldset {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  color: #FFFFFF;
   margin-bottom: 23px;
 }
 
@@ -93,7 +91,6 @@ fieldset {
   font-weight: 400;
   font-size: 22px;
   line-height: 25px;
-  color: #FFFFFF;
   border-radius: 50px;
 }
 
@@ -121,7 +118,7 @@ fieldset {
 }
 
 .block__item input:focus {
-  outline: 1px solid #CD06FF;
+  outline: 1px solid var(--bg-normal);
 }
 
 .form__data {
@@ -162,14 +159,13 @@ fieldset {
 }
 
 .data__item input:focus {
-  outline: 2px solid #CD06FF;
+  outline: 2px solid var(--bg-normal);
 }
 
 .data__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  color: #FFFFFF;
 }
 
 .data__item-name,
@@ -223,7 +219,7 @@ fieldset {
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
-  color: #6C0287;
+  color: var(--bg-hover);
   display: block;
   margin-left: auto;
   transition: all .3s;
@@ -231,12 +227,12 @@ fieldset {
 
 .form__btn:hover {
   background: #EADEED;
-  border: 3px solid #6C0287;
+  border: 3px solid var(--form-normal);
 }
 
 .form__btn:focus {
   background: #FFFFFF;
-  border: 3px solid #6C0287;
+  border: 3px solid var(--form-normal);
 }
 
 .form__btn:active {

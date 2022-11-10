@@ -30,7 +30,6 @@
   line-height: 50px;
   text-transform: uppercase;
   margin: 70px 0 40px;
-  /*padding: 0 20px;*/
 }
 
 .abouts__wrap {
@@ -70,6 +69,6 @@
   background-repeat: no-repeat;
   width: 21px;
   height: 25px;
-  right: 110px;
+  right: 90px;
   transform: rotate(180deg);
 }

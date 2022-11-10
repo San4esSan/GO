@@ -1,5 +1,5 @@
 .relaxation {
-  margin-bottom: 100px;
+  margin-bottom: 170px;
 }
 
 .relaxation__title {
@@ -21,6 +21,14 @@
   transition: all .3s;
 }
 
+/*.relaxation__item:nth-child(2n) {*/
+/*  bottom: -70px;*/
+/*}*/
+
+/*.relaxation__item:nth-child(5n) {*/
+/*  bottom: -70px;*/
+/*}*/
+
 .relaxation__text {
   position: absolute;
   left: 40px;
@@ -29,7 +37,6 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
-  color: #FFFFFF;
 }
 
 .vr-glasses {
@@ -38,6 +45,7 @@
 
 .audio-system {
   background-image: url(../image/rel2.jpg);
+  bottom: -70px;
 }
 
 .karaoke {
@@ -50,6 +58,7 @@
 
 .cinema-services {
   background-image: url(../image/rel5.jpg);
+  bottom: -70px;
 }
 
 .plаy-stаtiоn {
