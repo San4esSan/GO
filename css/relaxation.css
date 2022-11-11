@@ -21,14 +21,6 @@
   transition: all .3s;
 }
 
-/*.relaxation__item:nth-child(2n) {*/
-/*  bottom: -70px;*/
-/*}*/
-
-/*.relaxation__item:nth-child(5n) {*/
-/*  bottom: -70px;*/
-/*}*/
-
 .relaxation__text {
   position: absolute;
   left: 40px;

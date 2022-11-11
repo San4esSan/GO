@@ -54,7 +54,7 @@
   display: block;
   width: 50px;
   height: 50px;
-  color: #ffffff;
+  color: var(--color-light);
   outline: 1px solid transparent;
   outline-offset: 3px;
   border-radius: 50%;
@@ -67,22 +67,22 @@ svg {
 }
 
 .social__link:hover {
-  color: #EADEED;
+  color: var(--social-hover);
 }
 
 .social__link:focus {
-  outline-color: #CD06FF;
-  color: #EADEED;
+  outline-color: var(--bg-normal);
+  color: var(--social-hover);
 }
 
 .social__link:active {
-  color: #CD06FF;
+  color: var(--bg-normal);
 }
 
 .contacts__map {
   width: 680px;
   height: 274px;
-  background: #fff;
+  background: var(--color-light);
 }
 
 .container__data {
@@ -91,7 +91,7 @@ svg {
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  color: #FFFFFF;
+  color: var(--color-light);
 }
 
 .footer__design {

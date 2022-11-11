@@ -3,8 +3,8 @@
 }
 
 .fag__list li {
-  background-color: #fff;
-  color: #1c1a1a;
+  background-color: var(--color-light);
+  color: var(--fag-color);
   font-weight: 700;
   font-size: 24px;
   padding: 20px 70px;
@@ -18,8 +18,8 @@
 }
 
 .fag__list :nth-child(even) {
-  background-color: #440f51;
-  color: #ffffff;
+  background-color: var(--fag-bg);
+  color: var(--color-light);
 }
 
 .fag__list li:after {

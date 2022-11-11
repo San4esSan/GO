@@ -58,7 +58,7 @@
   font-weight: 900;
   font-size: 100px;
   line-height: 141px;
-  color: #CD06FF;
+  color: var(--bg-normal);
 }
 
 .hero__inner span {
@@ -70,7 +70,7 @@
   font-size: 30px;
   line-height: 34px;
   text-align: center;
-  color: #FFFFFF;
+  color: var(--color-light);
 }
 
 .hero-text {
@@ -79,33 +79,33 @@
   font-size: 42px;
   line-height: 106px;
   font-variant: small-caps;
-  color: #CD06FF;
+  color: var(--bg-normal);
 }
 
 .hero__btn {
   width: 374px;
   height: 80px;
-  background: #6C0287;
+  background: var(--bg-hover);
   border-radius: 10px;
   font-weight: 700;
   font-size: 26px;
   line-height: 30px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: var(--color-light);
   text-align: center;
   transition: all .3s;
 }
 
 .hero__btn:hover {
-  background: #840AA3;
+  background: var(--form-hover);
 }
 
 .hero__btn:focus {
-  background: #840AA3;
+  background: var(--form-hover);
 }
 
 .hero__btn:active {
-  background: #640AA3;
+  background: var(--form-acive);
 }
 
 .hero__btn-link {
@@ -123,7 +123,7 @@
   transform: translateX(-50%);
   outline: 1px solid transparent;
   color: transparent;
-  stroke: #FFFFFF;
+  stroke: var(--color-light);
 }
 
 .arrow-down {
@@ -131,23 +131,23 @@
 }
 
 .arrow-down:hover {
-  fill: #FFFFFF;
-  stroke: #6C0287;
+  fill: var(--form-acive);
+  stroke: var(--bg-hover);
 }
 
 .hero__arrow:hover .circle {
-  stroke: #FFFFFF;
+  stroke: var(--color-light);
 }
 
 .hero__arrow:focus {
-  outline-color: #CD06FF;
+  outline-color: var(--bg-normal);
 }
 
 .hero__arrow:active .arrow-down{
-  fill: #CD06FF;
-  stroke: #FFFFFF;
+  fill: var(--bg-normal);
+  stroke: var(--color-light);
 }
 
 .hero__arrow:active .circle {
-  stroke: #CD06FF;
+  stroke: var(--bg-normal);
 }
