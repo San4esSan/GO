@@ -131,12 +131,12 @@
 }
 
 .arrow-down:hover {
-  fill: var(--form-acive);
-  stroke: var(--color-light);
+  fill: var(--color-light);
+  stroke: var(--form-acive);
 }
 
 .hero__arrow:hover .circle {
-  stroke: var(--form-acive);
+  stroke: var(--color-light);
 }
 
 .hero__arrow:focus {
