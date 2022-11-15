@@ -132,11 +132,11 @@
 
 .arrow-down:hover {
   fill: var(--form-acive);
-  stroke: var(--bg-hover);
+  stroke: var(--color-light);
 }
 
 .hero__arrow:hover .circle {
-  stroke: var(--color-light);
+  stroke: var(--form-acive);
 }
 
 .hero__arrow:focus {
