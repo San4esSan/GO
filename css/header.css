@@ -6,6 +6,10 @@
   padding-bottom: 50px;
 }
 
+.header-menu__btn {
+  display: none;
+}
+
 .nav__list {
   display: flex;
   align-items: center;
@@ -49,4 +53,91 @@
 .header__btn:active {
   background: var(--bg-focus);
   border: 1px solid var(--color-dark);
+}
+
+@media (max-width: 1200px) {
+  .header__container {
+     padding-bottom: 30px;
+  }
+
+  .logo {
+    width: 87px;
+    height: 55px;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .nav__link {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .header__btn {
+    max-width: 229px;
+    font-size: 18px;
+    line-height: 19px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 860px) {
+  .header__container {
+    padding-top: 32px;
+    padding-bottom: 30px;
+  }
+
+  .header-menu__btn {
+    display: block;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    width: 58px;
+    height: 58px;
+  }
+
+  .header-menu__btn svg {
+    transition: all .3s;
+    fill: var(--bg-hover);
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .header-menu__btn:hover svg {
+    fill: var(--bg-normal);
+  }
+
+  .header-menu__btn:focus svg {
+    fill: var(--form-hover);
+  }
+
+  .header-menu__btn:focus {
+    outline: 1px solid var(--form-normal);
+  }
+
+  .header-menu__btn:active svg {
+    fill: var(--form-hover);
+  }
+
+
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 66px;
+    height: 42px;
+  }
+
+  .header-menu__btn {
+    width: 39px;
+    height: 20px;
+  }
+
+  .header__btn {
+    display: none;
+  }
+
 }

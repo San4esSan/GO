@@ -36,6 +36,11 @@
   position: relative;
 }
 
+.abouts__wrap blockquote {
+  margin-right: 0;
+  margin-left: 30px;
+}
+
 .quote-cite {
   max-width: 380px;
   display: flex;

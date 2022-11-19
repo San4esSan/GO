@@ -83,3 +83,21 @@ iframe {
   padding: 0 30px;
   margin: 0 auto;
 }
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 964px;
+  }
+}
+
+@media (max-width: 860px) {
+  .container {
+    max-width: 748px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
+}

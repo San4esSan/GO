@@ -2,6 +2,15 @@
   margin-bottom: 170px;
 }
 
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
 .relaxation__title {
   width: 800px;
   margin: 0 auto 41px;
@@ -15,10 +24,12 @@
 }
 
 .relaxation__item {
+  flex-grow: 1;
   position: relative;
   width: 380px;
   height: 228px;
   transition: all .3s;
+  background-size: cover;
 }
 
 .relaxation__text {
@@ -59,4 +70,130 @@
 
 .relaxation__item:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 1200px) {
+  .relaxation {
+    margin-bottom: 122px;
+  }
+
+  .title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .relaxation__title {
+    width: 550px;
+    margin: 0 auto 36px;
+  }
+
+  .relaxation__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px 20px;
+  }
+
+  .relaxation__item {
+    width: 287px;
+    height: 172px;
+  }
+
+  .relaxation__text {
+    top: 114px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+   .audio-system {
+    bottom: -53px;
+  }
+
+  .cinema-services {
+    bottom: -53px;
+  }
+}
+
+@media (max-width: 860px) {
+  .relaxation {
+    margin-bottom: 60px;
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .relaxation__title {
+    width: 450px;
+    margin: 0 auto 30px;
+  }
+
+  .relaxation__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .relaxation__item {
+    width: 334px;
+    height: 200px;
+  }
+
+  .relaxation__text {
+    left: 30px;
+    top: 132px;
+  }
+
+  .audio-system {
+    bottom: 0;
+  }
+
+  .cinema-services {
+    bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .relaxation {
+    margin-bottom: 30px;
+  }
+
+  .title {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .relaxation__title {
+    width: 270px;
+    margin: 0 auto 15px;
+  }
+
+  .relaxation__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .relaxation__item {
+    width: 135px;
+    height: 75px;
+  }
+
+  .relaxation__text {
+    font-size: 10px;
+    line-height: 12px;
+    left: 10px;
+    top: 30px;
+  }
+
+  .audio-system {
+    bottom: 0;
+  }
+
+  .cinema-services {
+    bottom: 0;
+  }
 }

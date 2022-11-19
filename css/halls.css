@@ -2,15 +2,6 @@
   margin-bottom: 100px;
 }
 
-.title {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 50px;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 40px;
-}
-
 .halls__links {
   display: flex;
   flex-wrap: wrap;
@@ -26,6 +17,7 @@
 }
 
 .halls__link a {
+  width: 250px;
   font-weight: 700;
   font-size: 70px;
   line-height: 80px;
