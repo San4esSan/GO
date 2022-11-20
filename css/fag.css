@@ -25,6 +25,7 @@
 .fag__list li:after {
   content: "";
   background-image: url(../image/open.svg);
+  background-repeat: no-repeat;
   display: inline-block;
   background-size: contain;
   width: 46px;
@@ -42,6 +43,8 @@
 
 .fag__list li:nth-child(even):after {
   background-image: url(../image/open-white.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .fag__list li:nth-child(even):hover:after {
@@ -50,4 +53,104 @@
 
 .fag__list li:nth-child(even):active:after {
   background-image: url(../image/open-white-active.svg);
+}
+
+@media (max-width: 1200px) {
+  .fag {
+    margin-bottom: 58px;
+  }
+
+  .fag__title {
+    margin-bottom: 26px;
+  }
+
+  .fag__list li {
+    background-color: var(--color-light);
+    color: var(--fag-color);
+    font-size: 20px;
+    line-height: 24px;
+    padding: 12px 70px 12px 25px;
+  }
+
+  .fag__list :nth-child(even) {
+    background-color: var(--color-light);
+    color: var(--fag-color);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .fag__list li:after {
+    content: "";
+    background-image: url(../image/open.svg);
+    display: inline-block;
+    background-size: contain;
+    width: 46px;
+    height: 46px;
+  }
+
+  .fag__list li:hover:after {
+    background-image: url(../image/open-hover.svg);
+  }
+
+  .fag__list li:active:after {
+    background-image: url(../image/open-active.svg);
+  }
+
+  .fag__list li:nth-child(even):after {
+    background-image: url(../image/open.svg);
+  }
+
+  .fag__list li:nth-child(even):hover:after {
+    background-image: url(../image/open-hover.svg);
+  }
+
+  .fag__list li:nth-child(even):active:after {
+    background-image: url(../image/open-active.svg);
+  }
+
+}
+
+@media (max-width: 860px) {
+  .fag {
+    margin-bottom: 30px;
+  }
+
+  .fag__title {
+    margin-bottom: 15px;
+  }
+
+  .fag__list li + li {
+    margin-top: 10px;
+  }
+
+  .fag__list li {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 12px 65px 12px 54px;
+  }
+}
+
+@media (max-width: 480px) {
+  .fag {
+    margin-bottom: 23px;
+  }
+
+  .fag__title {
+    margin-bottom: 15px;
+  }
+
+  .fag__list li + li {
+    margin-top: 16px;
+  }
+
+  .fag__list li {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 8px 13px 8px 13px;
+  }
+
+  .fag__list li:after {
+    width: 30px;
+    height: 30px;
+  }
 }

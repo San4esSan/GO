@@ -82,6 +82,9 @@
 }
 
 .hero__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 374px;
   height: 80px;
   border: none;
@@ -92,7 +95,6 @@
   line-height: 30px;
   text-transform: uppercase;
   color: var(--color-light);
-  text-align: center;
   transition: all .3s;
 }
 
