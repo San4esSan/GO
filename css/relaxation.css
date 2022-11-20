@@ -24,9 +24,9 @@
 }
 
 .relaxation__item {
-  flex-grow: 1;
+  flex: 1 100%;
   position: relative;
-  width: 380px;
+  flex-basis: 380px;
   height: 228px;
   transition: all .3s;
   background-size: cover;
@@ -88,19 +88,17 @@
   }
 
   .relaxation__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     gap: 30px 20px;
   }
 
   .relaxation__item {
-    width: 287px;
+    flex-basis: 220px;
     height: 172px;
   }
 
   .relaxation__text {
     top: 114px;
+    left: 20px;
     font-size: 20px;
     line-height: 28px;
   }
@@ -130,14 +128,11 @@
   }
 
   .relaxation__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     gap: 20px;
   }
 
   .relaxation__item {
-    width: 334px;
+    flex-basis: 220px;
     height: 200px;
   }
 
@@ -171,14 +166,11 @@
   }
 
   .relaxation__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     gap: 10px;
   }
 
   .relaxation__item {
-    width: 135px;
+    flex-basis: 135px;
     height: 75px;
   }
 
