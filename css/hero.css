@@ -17,7 +17,6 @@
   background-size: cover;
   right: 30px;
   bottom: 0;
-
 }
 
 .hero__title {
@@ -224,7 +223,6 @@
     bottom: 46px;
   }
 }
-
 
 @media (max-width: 860px) {
   .hero {

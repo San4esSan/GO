@@ -121,8 +121,6 @@
   .header-menu__btn:active svg {
     fill: var(--form-hover);
   }
-
-
 }
 
 @media (max-width: 480px) {
@@ -139,5 +137,4 @@
   .header__btn {
     display: none;
   }
-
 }

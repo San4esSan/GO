@@ -68,9 +68,11 @@
             <p class="hero-descr">Новейшая аппаратура</p>
           </div>
         </div>
-        <div class="hero__btn">
-          <a class="hero__btn-link" href="#booking">Забронировать</a>
-        </div>
+
+          <a class="hero__btn-link" href="#booking">
+            <button class="hero__btn">Забронировать</button>
+          </a>
+
 
         <a class="hero__arrow" href="#relaxation">
           <svg class="arrow-down" width="97" height="97" viewBox="0 0 97 97" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -141,24 +143,20 @@
             <legend class="form__subtitle">Выбери зал</legend>
             <ul class="checked__list">
               <li class="checked__item">
-                <label class="check__halls">
-                  <input class="check__input visually-hidden" name="halls" type="radio" value="80's vibes"> 80's vibes
-                </label>
+                <input class="check__input visually-hidden" id="vibes" name="halls" type="radio" value="80's vibes">
+                <label class="check__halls" for="vibes">80's vibes</label>
               </li>
               <li class="checked__item">
-                <label class="check__halls">
-                  <input class="check__input visually-hidden" name="halls" type="radio" value="star wars"> star wars
-                </label>
+                <input class="check__input visually-hidden" id="starwars" name="halls" type="radio" value="star wars">
+                <label class="check__halls" for="starwars">star wars</label>
               </li>
               <li class="checked__item">
-                <label class="check__halls">
-                  <input class="check__input visually-hidden" name="halls" type="radio" value="wild west"> wild west
-                </label>
+                <input class="check__input visually-hidden" id="wildwest" name="halls" type="radio" value="wild west">
+                <label class="check__halls" for="wildwest">wild west</label>
               </li>
               <li class="checked__item">
-                <label class="check__halls">
-                  <input class="check__input visually-hidden" name="halls" type="radio" value="neon style"> neon style
-                </label>
+                <input class="check__input visually-hidden" id="neonstyle" name="halls" type="radio" value="neon style">
+                <label class="check__halls" for="neonstyle">neon style</label>
               </li>
             </ul>
           </fieldset>
