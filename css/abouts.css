@@ -52,7 +52,7 @@
   margin: 0 0 0 30px;
 }
 
-.quote-cite {
+.abouts__wrap .quote-cite {
   max-width: 380px;
   display: flex;
   justify-content: space-between;
@@ -151,7 +151,7 @@
   .abouts__quote:after {
     width: 16px;
     height: 15px;
-    right: 145px;
+    right: 172px;
   }
 }
 
@@ -241,6 +241,10 @@
     margin: 0;
   }
 
+  .abouts__wrap blockquote {
+    margin-left: 18px;
+  }
+
   .quote-cite {
     width: 255px;
     margin: 0;
@@ -272,8 +276,19 @@
     margin-bottom: 9px;
   }
 
+  .abouts__wrap .quote-cite {
+    margin: 0;
+  }
+
+  .abouts__quote:before {
+    width: 10px;
+    height: 9px;
+  }
+
   .abouts__quote:after {
-    right: 100px;
+    width: 10px;
+    height: 9px;
+    right: 112px;
   }
 }
 
